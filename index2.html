@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <script language="javascript" type="text/javascript" src="script2.js"></script>
+    <link rel="stylsheet" type="text/css" href="style.css" />
+    <title>Basic Calculator</title>
+</head>
+<body>
+    <div class="content">
+        <h1>Basic Calculator</h1>
+        <table width="40%" border="1" align="center" bgcolor="#dedede">
+            <tr align="center">
+                <td width="20%" height="60" >Clear</td>
+                <td width="20%" onclick="Calculate('=')" >=</td>
+                <td width="20%" onclick="Calculate('/')">/</td>
+                <td width="20%" onclick="Calculate('*')">*</td>
+            </tr>
+
+            <tr align="center">
+                <td width="20%" height="60" onclick="Calculate(7)">7</td>
+                <td width="20%" onclick="Calculate(8)">8</td>
+                <td width="20%" onclick="Calculate(9)">9</td>
+                <td width="20%" onclick="Calculate('-')">-</td>
+            </tr>
+
+            <tr align="center">
+                <td width="20%" height="60" onclick="Calculate(4)">4</td>
+                <td width="20%" onclick="Calculate(5)">5</td>
+                <td width="20%"onclick="Calculate(6)" >6</td>
+                <td width="20%" onclick="Calculate('+')">+</td>
+            </tr>
+
+            <tr align="center">
+                <td width="20%" height="60" onclick="Calculate(1)">1</td>
+                <td width="20%" onclick="Calculate(2)">2</td>
+                <td width="20%" onclick="Calculate(3)">3</td>
+                <td width="20%">enter</td>
+            </tr>
+
+            <tr align="center">
+                <td width="20%" height="60" colspan="2" onclick="Calculate(0)">0</td>
+                <td width="20%"  onclick="Calculate('.')">.</td>
+               
+            </tr>
+
+
+
+
+        </table>
+        <p id="Buffer"></p>
+        <p id="Result"></p>
+
+
+
+    </div>
+
+
+
+</body>
+</html>
